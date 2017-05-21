@@ -3,6 +3,6 @@ compiler: gcc
 dist: trusty
 
 script: 
-  - cmake -D CMAKE_C_COMPILER=gcc-5 -D CMAKE_CXX_COMPILER=g++-5 CMakeLists.txt
+  - cmake CMakeLists.txt
   - make
   - ./travis_cmake_gcc_cpp11

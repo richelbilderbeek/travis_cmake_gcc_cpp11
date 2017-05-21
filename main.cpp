@@ -1,9 +1,12 @@
 #include <iostream>
+#include <string>
 
-auto f() noexcept {
-  return "Hello world\n";
+std::string f() noexcept 
+{
+  return "Hello world";
 }
 
-int main() {
-  std::cout << f();
+int main() 
+{
+  std::cout << f() << '\n';
 }

@@ -19,6 +19,7 @@ The goal of this project is to have a clean Travis CI build, with specs:
 More complex builds:
 
  * Use `C++14`: [travis_cmake_gcc_cpp14](https://www.github.com/richelbilderbeek/travis_cmake_gcc_cpp14)
+ * Add `lcov`: [https://github.com/codecov/example-cpp11-cmake](https://github.com/codecov/example-cpp11-cmake)
 
 Equally complex builds:
 
